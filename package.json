@@ -2,13 +2,12 @@
   "name": "portfolio-rag",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jergyberger.github.io/RAG",
 "scripts": {
   "dev": "next dev",
   "build": "next build",
-  "export": "next build", 
-  "deploy": "npm run build && gh-pages -d out"
+  "start": "next start"
 }
+
 ,
   "dependencies": {
     "@ai-sdk/openai": "^1.1.15",
