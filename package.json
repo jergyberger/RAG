@@ -2,16 +2,14 @@
   "name": "portfolio-rag",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jergyberger.github.io/portfolio-rag",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export",
-    "export": "next export",
-    "start": "next start",
-    "seed": "ts-node ./scripts/loadDb.ts",
-    "lint": "next lint",
-    "deploy": "npm run build && gh-pages -d out"
-  },
+  "homepage": "https://jergyberger.github.io/RAG",
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "export": "next build", 
+  "deploy": "npm run build && gh-pages -d out"
+}
+,
   "dependencies": {
     "@ai-sdk/openai": "^1.1.15",
     "@ai-sdk/react": "^1.2.12",
@@ -21,7 +19,6 @@
     "@types/pdf-parse": "^1.1.4",
     "ai": "^4.3.16",
     "dotenv": "^16.4.7",
-    "gh-pages": "^6.3.0",
     "langchain": "^0.3.19",
     "next": "^15.2.0",
     "openai": "^4.85.2",
@@ -39,6 +36,7 @@
     "@types/react-dom": "^19.0.4",
     "eslint": "^9.20.1",
     "eslint-config-next": "15.1.7",
+    "gh-pages": "^6.3.0",
     "typescript": "^5.7.3"
   }
 }
