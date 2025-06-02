@@ -2,7 +2,7 @@
   "name": "portfolio-rag",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jergyberger.github.io/portfolio/rag",
+  "homepage": "https://jergyberger.github.io/portfolio-rag",
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
