@@ -1,13 +1,10 @@
-/**
- * @type {import('next').NextConfig}
- */
 const nextConfig = {
-  output: "export", // Enables `next export`
+  output: "export",             // ✅ Required for static HTML
   reactStrictMode: false,
   images: {
-    unoptimized: true, // Required for GitHub Pages (disables automatic image optimization)
+    unoptimized: true,          // ✅ Required for GitHub Pages
   },
-  basePath: "/portfolio/rag", // Use your repo name here
+  basePath: "/RAG",             // ✅ Must match your repo name
 };
 
 export default nextConfig;
