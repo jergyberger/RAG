@@ -1,10 +1,11 @@
 const nextConfig = {
-  output: "export",             // ✅ Required for static HTML
+  output: "export",
   reactStrictMode: false,
   images: {
-    unoptimized: true,          // ✅ Required for GitHub Pages
+    unoptimized: true,
   },
-  basePath: "/RAG",             // ✅ Must match your repo name
+  basePath: "/RAG",
+  assetPrefix: "/RAG",
 };
 
 export default nextConfig;
