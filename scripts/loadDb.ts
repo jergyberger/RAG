@@ -36,7 +36,8 @@ const jergy_berger_data = [
     "app/assets/NLP.pdf",
     "app/assets/Predictive Analytics.pdf",
     "app/assets/Project Management.pdf",
-    "app/assets/Quantitative Risk Management.pdf"
+    "app/assets/Quantitative Risk Management.pdf",
+    "app/assets/Master thesis.pdf"
 ];
 
 const client = new DataAPIClient(ASTRA_DB_APPLICATION_TOKEN)
